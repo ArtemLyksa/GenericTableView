@@ -12,6 +12,10 @@
 		FE8129E62228684D00A6CE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8129E42228684D00A6CE37 /* Main.storyboard */; };
 		FE8129E82228684E00A6CE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8129E72228684E00A6CE37 /* Assets.xcassets */; };
 		FE8129EB2228684E00A6CE37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8129E92228684E00A6CE37 /* LaunchScreen.storyboard */; };
+		FE8129F32228695400A6CE37 /* GenericTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8129F22228695400A6CE37 /* GenericTableViewController.swift */; };
+		FE8129F622286AA900A6CE37 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8129F522286AA900A6CE37 /* Person.swift */; };
+		FE8129F822286AAF00A6CE37 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8129F722286AAF00A6CE37 /* Film.swift */; };
+		FE8129FB22286F1600A6CE37 /* SubtitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8129FA22286F1600A6CE37 /* SubtitleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		FE8129E72228684E00A6CE37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE8129EA2228684E00A6CE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE8129EC2228684E00A6CE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8129F22228695400A6CE37 /* GenericTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewController.swift; sourceTree = "<group>"; };
+		FE8129F522286AA900A6CE37 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FE8129F722286AAF00A6CE37 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		FE8129FA22286F1600A6CE37 /* SubtitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,34 @@
 		FE8129DF2228684D00A6CE37 /* GenericTableView */ = {
 			isa = PBXGroup;
 			children = (
+				FE8129F922286F0800A6CE37 /* Views */,
+				FE8129F422286A9E00A6CE37 /* Models */,
 				FE8129E02228684D00A6CE37 /* AppDelegate.swift */,
 				FE8129E22228684D00A6CE37 /* ViewController.swift */,
 				FE8129E42228684D00A6CE37 /* Main.storyboard */,
 				FE8129E72228684E00A6CE37 /* Assets.xcassets */,
 				FE8129E92228684E00A6CE37 /* LaunchScreen.storyboard */,
 				FE8129EC2228684E00A6CE37 /* Info.plist */,
+				FE8129F22228695400A6CE37 /* GenericTableViewController.swift */,
 			);
 			path = GenericTableView;
+			sourceTree = "<group>";
+		};
+		FE8129F422286A9E00A6CE37 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE8129F522286AA900A6CE37 /* Person.swift */,
+				FE8129F722286AAF00A6CE37 /* Film.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE8129F922286F0800A6CE37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE8129FA22286F1600A6CE37 /* SubtitleTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8129F822286AAF00A6CE37 /* Film.swift in Sources */,
 				FE8129E32228684D00A6CE37 /* ViewController.swift in Sources */,
+				FE8129F32228695400A6CE37 /* GenericTableViewController.swift in Sources */,
+				FE8129FB22286F1600A6CE37 /* SubtitleTableViewCell.swift in Sources */,
+				FE8129F622286AA900A6CE37 /* Person.swift in Sources */,
 				FE8129E12228684D00A6CE37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
